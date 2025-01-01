@@ -1,0 +1,26 @@
+{
+  "name": "holy-grail-by-mk",
+  "version": "1.0.0",
+  "description": "library of custom hooks and components created by M.K",
+  "keywords": [
+    "react",
+    "typescript"
+  ],
+  "homepage": "https://github.com/kowall1013/holy-grail",
+  "bugs": {
+    "url": "https://github.com/kowall1013/holy-grail/issues"
+  },
+  "author": "Mateusz Kowalski",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kowall1013/holy-grail.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
