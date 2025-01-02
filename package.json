@@ -2,10 +2,13 @@
   "name": "holy-grail-by-mk",
   "version": "1.0.0",
   "description": "library of custom hooks and components created by M.K",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "ci": "npm run build",
-    "format": "prettier --write ."
+    "ci": "npm run build && npm run check-format && npm run check-exports",
+    "format": "prettier --write .",
+    "check-format": "prettier --check .",
+    "check-exports": "attw --pack . --ignore-rules=cjs-resolves-to-esm"
   },
   "keywords": [
     "react",
@@ -26,6 +29,7 @@
   "type": "module",
   "license": "MIT",
   "devDependencies": {
+    "@arethetypeswrong/cli": "^0.17.2",
     "prettier": "^3.4.2",
     "typescript": "^5.7.2"
   }
