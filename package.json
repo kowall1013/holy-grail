@@ -4,7 +4,8 @@
   "description": "library of custom hooks and components created by M.K",
   "scripts": {
     "build": "tsc",
-    "ci": "npm run build"
+    "ci": "npm run build",
+    "format": "prettier --write ."
   },
   "keywords": [
     "react",
@@ -25,6 +26,7 @@
   "type": "module",
   "license": "MIT",
   "devDependencies": {
+    "prettier": "^3.4.2",
     "typescript": "^5.7.2"
   }
 }
