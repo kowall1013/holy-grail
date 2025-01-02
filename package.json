@@ -1,6 +1,6 @@
 {
   "name": "holy-grail-by-mk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "library of custom hooks and components created by M.K",
   "main": "dist/index.js",
   "scripts": {
