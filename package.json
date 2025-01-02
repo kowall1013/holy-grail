@@ -2,6 +2,10 @@
   "name": "holy-grail-by-mk",
   "version": "1.0.0",
   "description": "library of custom hooks and components created by M.K",
+  "scripts": {
+    "build": "tsc",
+    "ci": "npm run build"
+  },
   "keywords": [
     "react",
     "typescript"
